@@ -6,7 +6,6 @@ allButtons.forEach(button => {
     button.addEventListener('click', (e) => {
         const value = e.target.dataset.value
 
-        calcInput.innerText += value // concatenate user input if numbers
         if (value === '=') {
             if (calcInput.innerText.includes('/')) {
                 const splitInput = calcInput.innerText.split('/')
@@ -27,6 +26,8 @@ allButtons.forEach(button => {
                 operate('-', splitInput[0], splitInput[1]) 
             }
         }
+        calcInput.innerText += value // concatenate user input if numbers
+
         if (value === 'clear') {
             calcInput.innerText = '';
         }
