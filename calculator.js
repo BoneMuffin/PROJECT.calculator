@@ -26,7 +26,8 @@ allButtons.forEach(button => {
                 operate('-', splitInput[0], splitInput[1]) 
             }
         }
-        calcInput.innerText += value // concatenate user input if numbers
+
+        calcInput.innerText += value // concatenate user input if they are numbers
 
         if (value === 'clear') {
             calcInput.innerText = '';
