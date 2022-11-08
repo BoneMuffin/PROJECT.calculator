@@ -1,24 +1,142 @@
-.row {
-    display: flex;
-}
-
-.calc-input {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 400px;
-    height: 100px;
-    background-color: lightgray;
-    font-size: 30px;
-}
-
-.button {
-    box-sizing: border-box;
+html {
+    font-size: 9px;
+    background-color: rgb(153, 192, 137) ;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    border: solid 1px black;
-}
+  }
 
+  @font-face{
+    font-family:'digital-clock-font';
+    src: url(./ticking-timebomb-bb.regular.ttf);
+   }
+
+  .main {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .calculator {
+      background-color: rgb(87, 87, 87);
+      box-shadow: 7px 9px 4px 3px #6c8a5f;
+      border-bottom: 7px solid black;
+      border-right: 1px solid black; 
+      border-radius: 3%;    
+      height: 50rem;
+      width: 300px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+
+  }
+
+  .screen {
+      width: 90%;
+      height: 65px;
+      padding: 2px 10px;
+      background-color:rgb(188, 201, 183);
+      border-top: 6px solid #8080805c;
+      border-bottom: 6px solid #8080805c;
+      border-radius: 6px;
+      font-size: 3rem;
+      font-family:'digital-clock-font';
+      color: dimgray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-end;
+  }
+
+  #screen-top {
+    font-size: 2.2rem;
+  }
+
+
+  .button-pad {
+      width: 90%;
+      height: 35rem;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .button-pad-row {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-pad-btn {
+      background-color: whitesmoke;
+      width: 20%;
+      font-size: 3rem;
+      text-align: center;
+      padding: 2px;
+      height: 75%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 3px solid rgb(156, 155, 155);
+      border-radius: 5px;
+      box-shadow: 2px 3px 3px 1px #000000;
+      cursor: pointer;
+    }
+
+    .button-pad-btn:hover {
+        background-color: rgb(197, 197, 197);
+        border-bottom: 3px solid rgb(94, 94, 94);
+    }
+
+    .button-pad-btn:active {
+        transform: translateY(3px);
+    }
+
+    #equals-btn {
+        background-color: coral;
+        border-bottom: 3px solid rgb(204, 89, 47);
+        width: 20%;
+      font-size: 3rem;
+      text-align: center;
+      padding: 2px;
+      height: 75%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 3px solid rgb(156, 155, 155);
+      border-radius: 5px;
+      box-shadow: 2px 3px 3px 1px #000000;
+      cursor: pointer;
+    }
+
+    #equals-btn:hover {
+        background-color: rgb(187, 83, 46);
+        border-bottom: 3px solid rgb(146, 59, 27);
+    }
+
+    ::selection {
+        color: none;
+        background: none;
+    }
+    /* For Mozilla Firefox */
+    ::-moz-selection {
+        color: none;
+        background: none;
+    }
+
+    #undo {
+        font-size: 2rem;
+    }
