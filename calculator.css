@@ -24,7 +24,7 @@ html {
 
   .calculator {
       background-color: rgb(122, 55, 153);
-      box-shadow: 1px 2px 15px 1.5px #55a2d6;
+      box-shadow: 1px 2px 15px 1.5px #19a3ff;
       border-bottom: 7px solid  rgb(68, 24, 88);
       border-right: 2px solid rgb(68, 24, 88); 
       border-left: 2px solid rgb(68, 24, 88); 
@@ -44,10 +44,9 @@ html {
       width: 90%;
       height: 60px;
       padding: 2px 10px;
-      background-color:rgb(1, 99, 102);
-      border-bottom: 6px solid  rgb(102, 110, 108);
-      border-top: 6px solid rgb(102, 110, 108);
-      border-radius: 6px;
+      background-color:rgb(64, 105, 107);
+      border: 6px solid  rgb(68, 24, 88);
+      border-radius: 8px;
       font-size: 3rem;
       font-family:'DotGothic16', sans-serif;   
       color: rgb(0, 39, 41);
