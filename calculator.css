@@ -2,7 +2,7 @@ html {
     font-size: 9px;
     background-color: rgb(25, 16, 58) ;
     background-size: cover;
-    background-image: url("./calculator-bck.jpg");
+    background-image: url("calc-sources/vaporwave-wallpaper.jpg");
   }
   
   body,html {
@@ -121,7 +121,7 @@ html {
     }
     
      .special-button:hover {
-        background-color:   rgb(5, 129, 138);
+        background-color:   rgb(0, 121, 129);
         border-bottom: 3px solid  rgb(0, 47, 51);
     }
 
