@@ -150,3 +150,5 @@ undoBtn.addEventListener("click", backspace);
 
 const changeNumberSignBtn = document.querySelector("#change-sign");
 changeNumberSignBtn.addEventListener("click", changeNumberSign);
+
+// keyboard support
