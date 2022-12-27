@@ -92,9 +92,8 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      border-bottom: 3px solid rgb(97, 25, 61);
+      border-bottom: 5px solid rgb(97, 25, 61);
       border-radius: 5px;
-      box-shadow: 2px 3px 3px 1px #000000;
       cursor: pointer;
     }
 
@@ -110,9 +109,8 @@ body {
           display: flex;
           align-items: center;
           justify-content: center;
-          border-bottom: 3px solid rgb(6, 70, 75);
+          border-bottom: 5px solid rgb(6, 70, 75);
           border-radius: 5px;
-          box-shadow: 2px 3px 3px 1px #000000;
           cursor: pointer;
         }
     
