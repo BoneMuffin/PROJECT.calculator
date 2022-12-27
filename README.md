@@ -22,6 +22,6 @@ Part of the Odin Project's curriculum
  - Custom color palette for the keypad section.
  - Backspace button also included.
 
-## Live preview [here](https://bonemuffin.github.io/Etch-a-Sketch/etch-a-sketch.html)
+## Live preview [here](https://bonemuffin.github.io/PROJECT.Etch-a-Sketch/etch-a-sketch.html)
 ![](./calc-sources/calc-preview.png)
 
