@@ -1,6 +1,8 @@
 # Calculator
 Part of the Odin Project's curriculum
 
+## Live preview [here](https://bonemuffin.github.io/PROJECT.calculator/calculator.html)
+
 ## Built with
 - HTML
 * CSS
@@ -22,6 +24,4 @@ Part of the Odin Project's curriculum
  - Custom color palette for the keypad section.
  - Backspace button also included.
 
-## Live preview [here](https://bonemuffin.github.io/PROJECT.calculator/calculator.html)
-![](./calc-sources/calcPreview.png)
 
